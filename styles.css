@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gameCube {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap : 16px;
+    height: 400px;
+    width: 400px;
+    padding: 0;
+}
+#counter {
+    text-align: center;
+    font-size: 50px;
+}
+
+.option {
+    height: 100%;
+    width: 30%;
+    flex: 1 1 auto;
+    margin: 2px solid black;
+    font-size: large;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 5px;
+    width: 100%;
+    padding:  10px;
+    gap : 10px;
+}
+
+#rock {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+#scissors {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#paper {
+    border-radius: 0;
+}
